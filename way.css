@@ -61,7 +61,6 @@ body{
     height: 48px;
     padding: 0 32px;
     cursor: pointer;
-    border: 2px solid #986042;
     border-radius: 8px;
     position: absolute;
     bottom: 48px;
@@ -75,7 +74,6 @@ body{
     font-weight: 500;
     line-height: 1;
     text-transform: uppercase;
-    color: #ffffff;
     white-space: nowrap;
     border: solid 0.1rem #444444;
     box-sizing: border-box;
@@ -658,15 +656,15 @@ body{
     font-family: Inter, 'Source Sans Pro';
     flex-shrink: 0;
 }
-.s5__content .s5__img {
+.s5__img {
     width: 51.2rem;
     height: 32rem;
     position: absolute;
     left: 0;
     top: 0;
     object-fit: cover;
-    vertical-align: top;   
-    filter: contrast(1.5) ;
+    vertical-align: top;
+    filter: contrast(1.5);
 }
 /* line */
 .s5__group {
@@ -801,15 +799,15 @@ body{
     font-family: Inter, 'Source Sans Pro';
     white-space: nowrap;
 }
-.s6__content .s6__img {
+.s6__img {
     width: 51.2rem;
     height: 32rem;
     position: absolute;
     left: 0;
     top: 0;
     object-fit: cover;
-    vertical-align: top;   
-    filter: contrast(1.5) ;
+    vertical-align: top;
+    filter: contrast(1.5);
 }
 
 /* -------------------------------FOOTER--------------------- */

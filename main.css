@@ -168,14 +168,7 @@ body{
     background-color: #a01f24;
     flex-shrink: 0;
 }
-.banner__content {
-    color: #986042;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 48px;
-    font-size: 1.6rem;
 
-}
 
 /*---------about-----------*/
 .about__container {
