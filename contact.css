@@ -246,7 +246,7 @@ button {
     font-family: 'Source Sans Pro';
     background-color: #ffffff;
     color: #000000;
-
+    cursor: pointer;   
 }
 button:hover {
     display: inline-block;
