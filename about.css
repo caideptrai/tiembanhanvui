@@ -1,0 +1,284 @@
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    width: 144.1rem;
+}
+#main {
+    width: 100%;
+    height: 378.7rem;
+    /* cursor: pointer;    */
+}
+#main #place__main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.banner__container {
+    width: 100%;
+    height: 980px;
+    position: relative;
+    flex-shrink: 0;
+}
+.banner__container .banner {
+    box-sizing: border-box;
+    padding-bottom: 0.1rem;
+    width: 144.1rem;
+    height: 924px;
+    position: absolute;
+    left: 0;
+    top: 5.8rem;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    border: solid 0.1rem #444444;    
+    align-items: center;
+    justify-content: center;
+}
+.banner_place {
+    width: 144.1rem;
+    height: 102.4rem;
+    flex-shrink: 0;
+}
+.banner_place .banner__content {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 4.7rem 0rem 0.1rem 0rem;
+    width: 100%;
+    height: 100%;
+    border: solid 0.1rem #000000;
+    background-color: #ffffff; 
+}
+/* .banner__bground {
+    position: relative;
+    box-sizing: border-box;
+    padding: 20.9rem 18.7rem 19rem 18.7rem;
+    width: 100%;
+    height: 980px;
+    align-items: center;
+    display: flex;
+} */
+.banner__ground {
+    position: relative;
+    box-sizing: border-box;
+    padding: 20.9rem 18.7rem 19rem 18.7rem;
+    width: 100%;
+    height: 980px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    filter: blur(1.4rem);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./assets/img_about/about_banner.png');
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+.intro__1{
+    margin: 0rem 0.4rem 2.6rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;   
+}
+.intro__2 {
+    margin: 0rem 0.5rem 2.6rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 1.2;
+    font-style: italic;
+    color: #444444;
+    font-family: Fraunces, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;   
+}
+.intro__group {
+    margin-bottom: 3.2rem;
+    width: 100%;
+    height: 37.5rem;
+    position: relative;
+    flex-shrink: 0;  
+}
+.intro__3 {
+    width: 81.3rem;
+    height: 26.6rem;
+    position: absolute;
+    left: 1.9rem;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2102272797;
+    font-style: italic;
+    color: #444444;
+    font-family: Inter, 'Source Sans Pro';
+}
+.intro__4 {
+    width: 85.2rem;
+    height: 17.1rem;
+    position: absolute;
+    left: 0;
+    top: 20.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2102272797;
+    font-style: italic;
+    color: #444444;
+    font-family: Inter, 'Source Sans Pro';
+}
+.intro__button {
+    background-color: var(--white-color);
+    height: 48px;
+    padding: 0 32px;
+    cursor: pointer;
+    border: 2px solid #986042;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin: 0rem 35.075rem 0rem 30.5rem;
+    padding: 1.8rem 1.2rem 3.6rem 1.2rem;
+    width: calc(100% - 65.575rem);
+    height: 4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Lexend Mega, 'Source Sans Pro';
+    white-space: nowrap;
+    border: solid 0.1rem #444444;
+    box-sizing: border-box;
+    background-color: #a01f24;
+    border-radius: 0.2rem;
+    flex-shrink: 0;    */
+}
+.intro__button:hover {
+    display: inline-block;
+    /* line-height: 1.6; */
+    font-size: 1.6rem;
+    border: solid 0.1rem #a01f24;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    color: #a01f24;
+    background-color: #f6f6f6;
+    flex-shrink: 0;
+}
+#motivation {
+    /* width: 144.6rem;
+    height: 150rem;
+    position: relative;
+    flex-shrink: 0;   */
+    position: relative;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+.mtv__container {
+    /* box-sizing: border-box;
+    padding: 17.6rem 10.405rem 17.6rem 10.4rem;
+    width: 144.1rem;
+    height: 75.1043rem;
+    position: absolute;
+    left: 0rem;
+    top: 0;
+    display: flex;
+    align-items: flex-start;
+    border: solid 0.1rem #444444;
+    border-top: #444444;
+    flex-direction: column;
+    background-color: #ffffff;
+    flex-shrink: 0; */
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 60px 40px;
+    align-items: center;
+    justify-content: center;
+}
+.mtv__header {
+    margin: 0rem 0.002rem 3.4rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.mtv__slogan {
+    margin: 0rem 0.002rem 3.4rem 0rem;
+    max-width: 50.3528rem;
+    display: flex;
+    /* text-align: left; */
+    align-items: center;
+    justify-content: center;
+    font-size: 4.8rem;
+    font-weight: 100;
+    line-height: 1.25;
+    font-style: italic;
+    color: #444444;
+    font-family: Fraunces, 'Source Sans Pro';
+    flex-shrink: 0;
+}
+.mtv__text {
+    max-width: 51.195rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5555555556;
+    color: #444444;
+    font-family: Inter, 'Source Sans Pro';
+    flex-shrink: 0;
+}
+.mtv__img {
+    margin: 0rem 0.002rem 3.4rem 0rem;
+    height: 100%;
+    border: solid 0.1rem #444444;
+    box-sizing: border-box;
+    flex-shrink: 0;    
+}
+.mtv__img-about {
+    width: 72rem;
+    height: 75.1043rem;
+    position: relative;
+    background-size: 122.939% 117.857%;
+    background-position: -2.2961rem -6.1965rem;
+    background-image: url('./assets/img_about/about_mtv.png');  
+}
