@@ -1,25 +1,25 @@
-:root{
-    --white-color : #fff;
+:root {
+    --white-color: #fff;
     --black: #000;
     --text-color: #333;
 }
 
 /* RESET CSS */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fraunces', serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.btn{
+.btn {
     color: var(--white-color);
     background-color: #A01F24;
     text-decoration: none;
@@ -37,26 +37,27 @@ html{
     transform: translateX(-50%);
 }
 
-.column{
+.column {
     float: left;
 }
 
-.col-half{
+.col-half {
     width: 50%;
     border: 1px solid #ccc;
 }
 
-.row{
+.row {
     display: inline-block;
 }
 
-.text-center{
+.text-center {
     text-align: center !important;
 }
 
-.text-content{
+.text-content {
     position: absolute;
     color: #000;
     width: 100%;
     text-align: center;
 }
+
