@@ -48,7 +48,7 @@ body {
     flex-direction: column;
     background-color: #f6f6f6;
 }
-/* HEADING TITLE */
+/* -------HEADING TITLE------------*/
 .contact__h1 {
     margin: 0rem 0rem 2.8rem 0.054rem;
     max-width: 68rem;
@@ -101,7 +101,7 @@ body {
     white-space: nowrap;
     flex-shrink: 0;
 }
-/* BOX */
+/* ---------------------BOX ---------------*/
 #contact__box {
     box-sizing: border-box;
     padding: 7.8rem 12.7rem 8.3rem 12.7rem;
@@ -264,7 +264,7 @@ button:hover {
     background-color: #f6f6f6;
     flex-shrink: 0;
 }
-/* FOOTER */
+/*--------- FOOTER---------------- */
 #contact__body .footer__contact {
     width: 144rem;
     height: 4.1rem;
