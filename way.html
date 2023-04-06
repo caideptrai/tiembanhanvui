@@ -7,26 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cách mua hàng</title>
     <link rel="stylesheet" href="way.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0/css/all.min.css">
 </head>
+
 <body>
     <div id="main">
         <div id="place__main">
-            <div class="main__container">
-                <div class="banner">
-                    <div class="banner__bground">
-                        <div class="banner__text">
-                            <div class="intro__button">Xem sản phẩm</div>
-                        </div>                                         
-                    </div>
+
+            <!-- ! changed banner -->
+            <div id="banner">
+
+                <div class="banner__btn">
+                    <div href="" class="banner__content">Tất cả sản phẩm</div>
                 </div>
+    
             </div>
-        
+            
             <div class="way__container">
-                <div class="way__header"> Cách mua hàng <br/> thật đơn giản </div>
+                <!-- <div class="way__header"> <br /> thật đơn giản </div> -->
+                <div class="way__header">
+                    <a href="" class="way__header-title">
+                        Cách mua hàng
+                    </a>
+                    <a href="" class="way__header-title">
+                        thật đơn giản
+                    </a>
+                </div>
                 <div class="list__way">
                     <div class="step1">
                         <div class="s1__frame">
@@ -34,7 +45,7 @@
                                 <div class="s1__name">Chọn sản phẩm</div>
                                 <div class="s1__mota">Chọn chiếc bánh và phụ kiện bạn thích vào giỏ hàng.</div>
                             </div>
-                            <img class="s1__img" src="/assets/img_way/s1_img.png"/>
+                            <img class="s1__img" src="/assets/img_way/s1_img.png" />
                         </div>
                         <div class="s1__group">
                             <div class="s1__line"></div>
@@ -51,7 +62,7 @@
                                 <div class="s2__name">Lời chúc</div>
                                 <div class="s2__mota">Nhập lời chúc mà bạn muốn chúng tôi viết kèm với bánh.</div>
                             </div>
-                            <img class="s2__img" src="/assets/img_way/s2_img.png"/>
+                            <img class="s2__img" src="/assets/img_way/s2_img.png" />
                         </div>
                     </div>
                     <div class="step3">
@@ -60,7 +71,7 @@
                                 <div class="s3__name">Thông tin</div>
                                 <div class="s3__mota">Điền đầy đủ thông tin giao hàng.</div>
                             </div>
-                            <img class="s3__img" src="/assets/img_way/s3_img.png"/>
+                            <img class="s3__img" src="/assets/img_way/s3_img.png" />
                         </div>
                         <div class="s3__group">
                             <div class="s3__line"></div>
@@ -75,18 +86,20 @@
                         <div class="s4__frame">
                             <div class="s4__content">
                                 <div class="s4__name">Thanh toán</div>
-                                <div class="s4__mota">Hoàn tất thanh toán bằng phương pháp chuyển khoản nhanh 24/7.</div>
+                                <div class="s4__mota">Hoàn tất thanh toán bằng phương pháp chuyển khoản nhanh 24/7.
+                                </div>
                             </div>
-                            <img class="s4__img" src="/assets/img_way/s4_img.png"/>
+                            <img class="s4__img" src="/assets/img_way/s4_img.png" />
                         </div>
                     </div>
                     <div class="step5">
                         <div class="s5__frame">
                             <div class="s5__content">
                                 <div class="s5__name">Xác nhận</div>
-                                <div class="s5__mota">Đơn hàng của bạn sẽ được nhân viên của chúng tôi liên hệ qua điện thoại để xác nhận.</div>
+                                <div class="s5__mota">Đơn hàng của bạn sẽ được nhân viên của chúng tôi liên hệ qua điện
+                                    thoại để xác nhận.</div>
                             </div>
-                            <img class="s5__img" src="/assets/img_way/s5_img.png"/>
+                            <img class="s5__img" src="/assets/img_way/s5_img.png" />
                         </div>
                         <div class="s5__group">
                             <div class="s5__line"></div>
@@ -100,7 +113,7 @@
                                 <div class="s6__name">Giao hàng</div>
                                 <div class="s6__mota">Bánh sẽ được chuẩn bị thật chỉn chu để giao tới bạn.</div>
                             </div>
-                            <img class="s6__img" src="/assets/img_way/s6_img.png"/>
+                            <img class="s6__img" src="/assets/img_way/s6_img.png" />
                         </div>
                     </div>
                 </div>
@@ -114,7 +127,7 @@
                             <div class="logo__text">Lựa chọn hương vị ngọt ngào <br> cho bữa tiệc của bạn</div>
                         </section>
                     </div>
-                    
+
                     <div class="footer__div2">
                         <section class="product__footer">
                             <div class="group__sp-header">
@@ -128,7 +141,7 @@
                             </div>
                         </section>
                     </div>
-                    
+
                     <div class="footer__div3">
                         <section class="contact__footer">
                             <div class="group__contact-header">
@@ -150,15 +163,16 @@
                                 </div>
                                 <div class="group__dchi">
                                     <img src="/assets/img_footer/dchi_logo.png" alt="dchi" class="dchi_logo-footer">
-                                    <div class="dchi">Số 20, ngõ 36, đường Lê Thanh Nghị, <br> quận Hai Bà Trưng, Hà Nội</div>
+                                    <div class="dchi">Số 20, ngõ 36, đường Lê Thanh Nghị, <br> quận Hai Bà Trưng, Hà Nội
+                                    </div>
                                 </div>
                             </div>
                         </section>
                     </div>
-                    <div class="end__footer"></div>
                 </div>
+                <div class="end__footer"></div>
             </div>
-            
+
         </div>
     </div>
 </body>

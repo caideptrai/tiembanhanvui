@@ -19,9 +19,6 @@ html {
     box-sizing: border-box;
 
 }
-body{
-    width: 144.1rem;
-}
 
 .btn {
     background-color: var(--white-color);
