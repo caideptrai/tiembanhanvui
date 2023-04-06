@@ -4,7 +4,6 @@ html {
 * {
 	margin: 0;
 	padding: 0;
-}
 
 /* --------------HEADER----------------- */
 /* link to header.css */
@@ -328,7 +327,6 @@ html {
     flex-shrink: 0;
     border-left: solid 0.1px #444444;
     border-right: solid 0.1px #444444;
-
 }
 #footer {
     display: flex;
