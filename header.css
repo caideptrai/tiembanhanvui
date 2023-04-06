@@ -3,7 +3,7 @@
 #header {
     height: 01.4rem;
     position: relative;
-    left: -0.2rem;
+    left: -0.1rem;
     top: 0;
     border: solid 0.1rem #444444;
     box-sizing: border-box;
@@ -13,8 +13,7 @@
     padding-right: 46.5rem;
     width: 100%;
     height: 5.7rem;
-    position: absolute;
-    left: 0;
+    position: relative;
     top: -0.1rem;
     display: flex;
     align-items: center;
@@ -28,7 +27,7 @@
     padding: 1.4rem 2.584rem 1.4rem 2.4rem;
     display: flex;
     align-items: center;
-    border: solid 0.1rem #000000;
+    border: solid 0.1rem #444444;
     flex-shrink: 0;
     cursor: pointer;
   }
@@ -64,6 +63,8 @@
   /* -----------DAT HANG_GIO HANG-------------- */
   .header__nav-right {
     margin-bottom: 0rem;
+    position: relative;
+    left: -0.3rem;
     height: 5.7rem;
     display: flex;
     align-items: center;
@@ -93,7 +94,7 @@
   }
   .header__nav-cart {
     box-sizing: border-box;
-    width: 11.0rem;
+    width: 11.5rem;
     padding: 1.8rem 2rem 1.4rem 2rem;
     display: flex;
     align-items: center;
@@ -127,9 +128,9 @@
     padding: 0.1rem;
     width: 100%;
     height: 4.8rem;
-    position: absolute;
+    position: relative;
     left: 0;
-    top: 5.6rem;
+    top: 4.3rem;
     overflow: hidden;
     border: solid 0.1rem #444444;
   }

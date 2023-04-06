@@ -5,9 +5,6 @@ html {
 	margin: 0;
 	padding: 0;
 }
-body{
-    width: 144.1rem;
-}
 /* --------------HEADER----------------- */
 #header {
     width: 100%;
@@ -441,7 +438,6 @@ body{
     flex-shrink: 0;
     border-left: solid 0.1px #444444;
     border-right: solid 0.1px #444444;
-
 }
 #footer {
     display: flex;
@@ -454,7 +450,7 @@ body{
     height: 45rem;
     display: flex;
     flex-direction: row;
-    background-color: #a01f24;
+    justify-content: space-between;
 }
 .footer__div1 {
     width: 48.03rem;
