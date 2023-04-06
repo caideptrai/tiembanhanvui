@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -16,6 +17,96 @@
 </head>
 <body>
     <div id="main">
+        <div id="header">
+            <div class="header__frame">
+                <div class="header__nav-menu">
+                    <img class="menu__button" src="/assets/img_header/menu_icon.png" />
+                    <div class="menu">Menu</div>
+    
+                    <div class="subnav">
+                        <div class="subnav__header">
+                            <a href="" class="subnav__title">
+                                menu
+                            </a>
+                            <a href="" class="subnav__close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </a>
+                        </div>
+    
+                        <div class="subnav__body">
+                            <ul class="subnav__list">
+                                <li class="subnav__item">Về An Vui</li>
+                                <li class="subnav__item">
+                                    Sản phẩm
+                                    <ul class="subnav__product-list">
+                                        <li class="subnav__product-item">
+                                            <i class="list-style fa-regular fa-greater-than"></i>
+                                            Best seller
+                                        </li>
+                                        <li class="subnav__product-item">
+                                            <i class="list-style fa-regular fa-greater-than"></i>
+                                            Daily dessert
+                                        </li>
+                                        <li class="subnav__product-item">
+                                            <i class="list-style fa-regular fa-greater-than"></i>
+                                            Bánh theo chủ đề
+                                        </li>
+                                        <li class="subnav__product-item">
+                                            <i class="list-style fa-regular fa-greater-than"></i>
+                                            Phụ kiện
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="subnav__item">Liên hệ</li>
+                                <li class="subnav__item">Cách mua hàng</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                </div>
+                <img class="header__logo" src="./assets/img/Logoanvui.jpeg" />
+                <div class="header__nav-right">
+                    <div class="order">Đặt bánh</div>
+                    <div class="header__nav-cart">
+                        <img class="cart__button" src="./assets/img_header/cart_icon.png" />
+                        <div class="cart">Giỏ</div>
+    
+    
+                        <div class="cart__container">
+                            <div class="cart__close">
+                                <a href="" class="subnav__close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </a>
+                            </div>
+    
+                            <div class="cart__content">
+                                <a href="" class="cart__title">
+                                    Chưa có sản phẩm trong giỏ
+                                </a>
+                                <a href="" class="cart__text">
+                                    Tất cả sản phẩm
+                                </a>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider__frame">
+                <div class="slider__content">
+                    <div class="s__text1">Giao hàng tận nơi tại Hà Nội</div>
+                    <div class="s__text2">Giao hàng tận nơi tại Hà Nội</div>
+                    <div class="s__text3">Giao hàng tận nơi tại Hà Nội</div>
+                    <div class="s__text4">Giao hàng tận nơi tại Hà Nội</div>
+                    <div class="s__text5">Giao hàng tận nơi tại Hà Nội</div>
+                    <div class="s__text6">Giao hàng tận nơi tại Hà Nội</div>
+                    <div class="s__text7">Giao hàng tận nơi tại Hà Nội</div>
+                </div>
+            </div>
+        </div>
+
         <div id="place__main">
             <div class="main__container">
                 <div class="banner">
@@ -29,13 +120,11 @@
                                         <div class="intro__3">Là một thương hiệu được hình thành vào năm 2020, Tiệm bánh An Vui chuyên sản xuất bánh tươi mỗi ngày cho các buổi tiệc hoặc những dịp đặc biệt của bạn cùng gia đình, bạn bè.</div>
                                         <div class="intro__4">Những chiếc bánh ngọt An Vui là những tác phẩm mang phong cách thanh lịch, sang trọng, trang trí theo ý muốn của riêng bạn. Với vị bánh đa dạng cho bạn lựa chọn, mỗi miếng bánh bạn thưởng thức đều mang tới cảm giác hạnh phúc trọn vẹn.</div></div>
                                     </div>
-                                </div>
-                                <div class="banner__button">
-                                    <div class href="" class="banner__content">Xem sản phẩm</div>                                         
-                                </div>                                       
-                            <!-- </div>
-                        </div> -->
-                    <!-- </div> -->
+                                    <div class="intro__button">Xem sản phẩm</div>
+                                </div>                                         
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="motivation">
                     <div class="mtv__container">
@@ -88,58 +177,58 @@
                 </div>
             </div>
             
-            <div id="footer__place">
-                <div id="footer">
-                    <div class="footer__div1">
-                        <section class="logo__footer">
-                            <img class="img__logo-footer" src="/assets/img_footer/logo_footer.png" alt="logoAnVui">
-                            <div class="logo__text">Lựa chọn hương vị ngọt ngào <br> cho bữa tiệc của bạn</div>
-                        </section>
-                    </div>
-                    
-                    <div class="footer__div2">
-                        <section class="product__footer">
-                            <div class="group__sp-header">
-                                <div class="sp__header">SẢN PHẨM</div>
-                                <div class="__header">______</div>
+        </div>
+        <div id="footer__place">
+            <div id="footer">
+                <div class="footer__div1">
+                    <section class="logo__footer">
+                        <img class="img__logo-footer" src="/assets/img_footer/logo_footer.png" alt="logoAnVui">
+                        <div class="logo__text">Lựa chọn hương vị ngọt ngào <br> cho bữa tiệc của bạn</div>
+                    </section>
+                </div>
+                
+                <div class="footer__div2">
+                    <section class="product__footer">
+                        <div class="group__sp-header">
+                            <div class="sp__header">SẢN PHẨM</div>
+                            <div class="__header">______</div>
+                        </div>
+                        <div class="group__sp-article">
+                            <div class="sp__menu">&gt; Bánh theo chủ đề</div>
+                            <div class="sp__menu">&gt; Daily dessert</div>
+                            <div class="sp__menu">&gt; Phụ kiện</div>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="footer__div3">
+                    <section class="contact__footer">
+                        <div class="group__contact-header">
+                            <div class="contact__header">LIÊN HỆ</div>
+                            <div class="__header1">______</div>
+                        </div>
+                        <div class="group__contact-article">
+                            <div class="group__ins">
+                                <img src="/assets/img_footer/ins_logo.png" alt="ins" class="ins_logo-footer">
+                                <div class="ins">@tiembanhanvui</div>
                             </div>
-                            <div class="group__sp-article">
-                                <div class="sp__menu">&gt; Bánh theo chủ đề</div>
-                                <div class="sp__menu">&gt; Daily dessert</div>
-                                <div class="sp__menu">&gt; Phụ kiện</div>
+                            <div class="group__shopee">
+                                <img src="/assets/img_footer/sfood_logo.png" alt="sfood" class="sfood_logo-footer">
+                                <div class="sfood">Tiệm bánh An Vui</div>
                             </div>
-                        </section>
-                    </div>
-                    
-                    <div class="footer__div3">
-                        <section class="contact__footer">
-                            <div class="group__contact-header">
-                                <div class="contact__header">LIÊN HỆ</div>
-                                <div class="__header1">______</div>
+                            <div class="group__sdt">
+                                <img src="/assets/img_footer/sdt_logo.png" alt="sdt" class="sdt_logo-footer">
+                                <div class="sdt">0378463785</div>
                             </div>
-                            <div class="group__contact-article">
-                                <div class="group__ins">
-                                    <img src="/assets/img_footer/ins_logo.png" alt="ins" class="ins_logo-footer">
-                                    <div class="ins">@tiembanhanvui</div>
-                                </div>
-                                <div class="group__shopee">
-                                    <img src="/assets/img_footer/sfood_logo.png" alt="sfood" class="sfood_logo-footer">
-                                    <div class="sfood">Tiệm bánh An Vui</div>
-                                </div>
-                                <div class="group__sdt">
-                                    <img src="/assets/img_footer/sdt_logo.png" alt="sdt" class="sdt_logo-footer">
-                                    <div class="sdt">0378463785</div>
-                                </div>
-                                <div class="group__dchi">
-                                    <img src="/assets/img_footer/dchi_logo.png" alt="dchi" class="dchi_logo-footer">
-                                    <div class="dchi">Số 20, ngõ 36, đường Lê Thanh Nghị, <br> quận Hai Bà Trưng, Hà Nội</div>
-                                </div>
+                            <div class="group__dchi">
+                                <img src="/assets/img_footer/dchi_logo.png" alt="dchi" class="dchi_logo-footer">
+                                <div class="dchi">Số 20, ngõ 36, đường Lê Thanh Nghị, <br> quận Hai Bà Trưng, Hà Nội</div>
                             </div>
-                        </section>
-                    </div>
-                    <div class="end__footer"></div>
+                        </div>
+                    </section>
                 </div>
             </div>
+            <div class="end__footer"></div>
         </div>
     </div>
 </body>

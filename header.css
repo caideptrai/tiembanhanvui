@@ -238,6 +238,16 @@
   z-index: 1;
 }
 
+.cart__container::before{
+  position: absolute;
+  left: 0;
+  top: -16px;
+  width: 100%;
+  height: 20px;
+  content: "";
+  display: block;
+}
+
 .cart__close {
   height: 72px;
   margin-top: 12px;
