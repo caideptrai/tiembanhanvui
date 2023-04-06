@@ -13,6 +13,7 @@ html {
 #banner {
     position: relative;
     height: 980px;
+    margin-top: 43px;
     background: url('./assets/img/home/banner.png') bottom center / cover no-repeat;
 }
 .banner__btn {
