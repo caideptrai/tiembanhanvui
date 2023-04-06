@@ -253,11 +253,13 @@ html {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
     border: solid 0.1px #444444;
 }
 .reason__container {
     position: relative;
+    align-items: center;
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -279,11 +281,13 @@ html {
     flex-shrink: 0;
 }
 .reason__content {
+    padding-left: 90px ;
     box-sizing: border-box;
-    padding: 0rem 6rem 6rem 2.6rem;
     flex-shrink: 0;
     height: 696px;
+    position: relative;
     align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
